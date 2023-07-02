@@ -1,0 +1,44 @@
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255 255 255) !important;
+    font-weight: 500;
+}
+#headingTitle{
+    font-size: 1.5rem;
+}
+#aboutImg{
+    border-radius: 50%;
+}
+
+#aboutBody{
+    /* background-color: red; */
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutLogo{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+
+
+@media(max-width:600px){
+    #headingTitle{
+        font-size: 1rem;
+    }
+
+    .aboutTitle{
+        text-align: center;
+    }
+    .aboutLogo{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .aboutDetails{
+        text-align: justify;
+        font-size: 1rem;
+    }
+}
